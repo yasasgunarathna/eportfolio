@@ -503,7 +503,7 @@ elif selected == "Contact":
             <div style='background-color: #F9F9F9; padding: 20px; border-radius: 10px; width: 80%; text-align: center;'>
                 <p style='font-size: 18px;'><strong>📞 Phone:</strong> +61 493 620 319</p>
                 <p style='font-size: 18px;'><strong>📧 Email:</strong> <a href='mailto:yasas.gunarathna@example.com' style='color: #FF4500;'>yasas.gunarathna@example.com</a></p>
-                <p style='font-size: 18px;'><strong>🔗 LinkedIn:</strong> <a href='https://www.linkedin.com/in/yasas-gunarathna-5a9546227/' target='_blank' style='color: #FF4500;'>Visit My LinkedIn Profile</a></p>
+                <p style='font-size: 18px;'><strong>🔗 LinkedIn:</strong> <a href='www.linkedin.com/in/weera-gunarathne-5a9546227' target='_blank' style='color: #FF4500;'>Visit My LinkedIn Profile</a></p>
             </div>
         </div>
     """, unsafe_allow_html=True)
