@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Set up the page configuration
-st.set_page_config(page_title="Yasas Gunarathna - ICT Professional ePortfolio", layout="wide")
+st.set_page_config(page_title="Yasas Gunarathne - ICT Professional ePortfolio", layout="wide")
 
 # Define CSS for custom styling
 st.markdown("""
@@ -65,7 +65,7 @@ if selected == "Home":
     # Introduction Section
     st.markdown("""
     <div class='content'>
-        <p>I’m <strong>Yasas Gunarathna</strong>, an ICT Professional with a passion for creating innovative, user-centered 
+        <p>I’m <strong>Yasas Gunarathne</strong>, an ICT Professional with a passion for creating innovative, user-centered 
         technological solutions. My expertise spans software engineering, network troubleshooting, and project management, 
         with a strong focus on delivering impactful results in the ICT industry.</p>
     </div>
@@ -501,7 +501,7 @@ elif selected == "Contact":
     st.markdown("""
         <div style='display: flex; flex-direction: column; align-items: center; margin-top: 20px;'>
             <div style='background-color: #F9F9F9; padding: 20px; border-radius: 10px; width: 80%; text-align: center;'>
-                <p style='font-size: 18px;'><strong>📞 Phone:</strong> +94 76 935 5518</p>
+                <p style='font-size: 18px;'><strong>📞 Phone:</strong> +61 493 620 319</p>
                 <p style='font-size: 18px;'><strong>📧 Email:</strong> <a href='mailto:yasas.gunarathna@example.com' style='color: #FF4500;'>yasas.gunarathna@example.com</a></p>
                 <p style='font-size: 18px;'><strong>🔗 LinkedIn:</strong> <a href='https://www.linkedin.com/in/yasas-gunarathna-5a9546227/' target='_blank' style='color: #FF4500;'>Visit My LinkedIn Profile</a></p>
             </div>
@@ -529,13 +529,14 @@ elif selected == "Contact":
         <div style='margin-top: 40px; text-align: center;'>
             <h3 style='color: #FF4500;'>Find Me Here</h3>
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509334!2d144.95605431531653!3d-37.81720957975198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218cee7a0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2slk!4v1612305588914!5m2!1sen!2slk"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.0082385143156!2d153.02107261506112!3d-27.470125983890197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a1cf79c4f1d%3A0x502a35af3de4730!2sBrisbane%20QLD%2C%20Australia!5e0!3m2!1sen!2slk!4v1612305588914!5m2!1sen!2slk"
                 width="100%" 
                 height="300" 
-                style='border: 0; border-radius: 10px;' 
+                style="border: 0; border-radius: 10px;" 
                 allowfullscreen="" 
                 loading="lazy">
             </iframe>
+
         </div>
     """, unsafe_allow_html=True)
 
